@@ -1,0 +1,24 @@
+
+void main() {
+  int bangla = 86;
+  int english =90;
+  int math = 96;
+  
+  int sum = bangla + english + math;
+  double avg = sum / 3;
+  print('Your number is ${avg.toStringAsFixed(2)}');
+  
+  if(avg >= 80 && avg <= 100){
+    print('Comgratulation you have gone GPA 5');
+  }
+  else if(avg >= 70 && avg <= 79){
+    print('Comgratulation you have gone GPA 4');
+  }
+  else if(avg >= 60){
+    print('Your grade is A-');
+  }
+  else{
+    print('You are failed');
+  }
+  
+}
