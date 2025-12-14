@@ -1,0 +1,37 @@
+void main() {
+  // Box's value
+  double boxOneWidth = 5;
+  double boxOneHeight = 9;
+  double boxTwoWidth = 7;
+  double boxTwoHeight = 11;
+
+  // CircleRadius value
+  double circleOneRadius = 4.5;
+  double circleTwoRadius = 7.1;
+
+  // two box's area calculate
+  double boxOneArea = boxOneWidth * boxOneHeight;
+  print(boxOneArea);
+  double boxTwoArea = boxTwoWidth * boxTwoHeight;
+  print(boxTwoArea);
+
+  //curcle circumference problem
+  double circleOneCircumference = circleOneRadius * 3.14 * 2;
+  print(circleOneCircumference);
+  double circleTwoCircumference = circleTwoRadius * 3.14 * 2;
+  print(circleTwoCircumference);
+
+  //condition check between two circumference
+  print(
+    'circumference one is gerterthen circumference two = ${circleOneCircumference > circleTwoCircumference}',
+  );
+  print(
+    'circumference onw is less then circumference two = ${circleOneCircumference < circleTwoCircumference}',
+  );
+  print(
+    'circumference one is equal to circumference two = ${circleOneCircumference == circleTwoCircumference}',
+  );
+  print(
+    'circumference onw is notEqual to circumference two = ${circleOneCircumference != circleTwoCircumference}',
+  );
+}
