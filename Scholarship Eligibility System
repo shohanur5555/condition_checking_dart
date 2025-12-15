@@ -1,0 +1,19 @@
+// this problem show me given student are eligable or not for scolership
+
+void main(){
+  int score = 100;
+  int attendancePresentage = 100;
+  bool disciplinaryIssues = false;
+  
+ 
+  if(score < 0 || score > 100 || attendancePresentage < 0 || attendancePresentage > 100){
+    print('Invalid input');
+  }else if(score == 100 && attendancePresentage == 100 && disciplinaryIssues == false){
+    print('Eligible – Perfect Student');
+  }else if(score >= 85 && attendancePresentage >= 75 && disciplinaryIssues == false){
+    print('Eligible');
+  }else{
+    print('Not Eligible');
+  }
+  
+}
