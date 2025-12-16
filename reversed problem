@@ -1,0 +1,8 @@
+void main(){
+  String name = 'dart are you busy ?';
+  
+  String reeversed = name.split('').reversed.join('');
+  print('$name \n$reeversed');
+  
+  
+}
