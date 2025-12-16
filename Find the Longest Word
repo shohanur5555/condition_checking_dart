@@ -1,0 +1,13 @@
+// leargest word in a list
+void main(){
+  List<String> words = ['country', 'state', 'city', 'villages'];
+  String longestword = words[0];
+  
+  for(int i=1; i<words.length;i++){
+    if(words[i].length > longestword.length){
+      longestword = words[i];
+    }
+  }
+      print(longestword);
+
+}
