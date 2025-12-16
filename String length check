@@ -1,0 +1,6 @@
+// String length check
+void main(){
+  String name = 'dart';
+  String name1 = name.length.toString();
+  print(name1);
+}
