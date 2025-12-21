@@ -1,0 +1,15 @@
+void main() {
+  String input = "Flutter framework Dart programming language";
+  String vowels = "aeiouAEIOU";
+  List<String> foundVowels = [];
+  int count = 0;
+
+  for (var char in input.split('')) {
+    if (vowels.contains(char)) {
+      foundVowels.add(char);
+      count ++;
+    }
+  }
+  print('Number of vowel is : $count');
+  print(foundVowels);
+}
