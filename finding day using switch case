@@ -1,0 +1,22 @@
+void main() {
+  int day = 5;
+  
+  switch (day) {
+    case  1:
+      print("Friday");
+    case 2 :
+      print("Saturday");
+    case 3:
+      print("Sunday");
+    case 4:
+      print("Monday");
+    case 5:
+      print("Tuesday");
+    case 6:
+      print("WednessDay");
+    case 7:
+      print("ThusDay");
+    default :
+      print("Invalid Day");
+  }
+}
